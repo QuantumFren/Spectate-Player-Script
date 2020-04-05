@@ -60,6 +60,8 @@ if ( CLIENT ) then
 
             local selectedPlayer = pnl:GetColumnText( 1 )
 
+            -- Needs ULX to Work:
+            
             RunConsoleCommand( "say", "!spectate " .. selectedPlayer )
 
             local selectedPlayerSteamID = pnl:GetColumnText( 2 )
